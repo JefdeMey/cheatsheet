@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Oswald vet";
+    src: url('fonts/Oswald/oswald-v49-latin-700.woff2') format('woff2'),
+         url('fonts/Oswald/oswald-v49-latin-700.woff') format('woff'),
+         url('fonts/Oswald/Oswald-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Oswald regular";
+    src: url('fonts/Oswald/oswald-v49-latin-regular.woff2') format('woff2'),
+         url('fonts/Oswald/oswald-v49-latin-regular.woff') format('woff'),
+         url('fonts/Oswald/oswald-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Dancing vet";
+    src: url('fonts/Dancing_script/dancing-script-v24-latin-700.woff2') format('woff2'),
+         url('fonts/Dancing_script/dancing-script-v24-latin-700.woff') format('woff'),
+         url('fonts/Dancing_script/dancingscript-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Dancing regular";
+    src: url('fonts/Dancing_script/dancing-script-v24-latin-regular.woff2') format('woff2'),
+         url('fonts/Dancing_script/dancing-script-v24-latin-regular.woff') format('woff'),
+         url('fonts/Dancing_script/dancingscript-VariableFont_wght.ttf') format('truetype');
+}
+body {
+    font-family: 'Oswald regular', sans-serif;
+}
+#grotetitel {
+    font-family: 'Oswald vet', sans-serif;
+    text-align: center;
+}
+#ondertitel {
+    font-family: 'Dancing regular', serif;
+    text-align: center;
+}
+.titels {
+    text-align: center;
+}
+table {
+    border: 2px solid black;
+    margin: 0 auto;
+
+}
+th {
+    background-color: rgb(100, 255, 50);
+    border: 3px solid black;
+}
+
+td {
+    border: 1px dotted black;
+    text-align: center;
+    padding: 10px;
+}
+
